@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sqlite3'
+gem 'activerecord'
+gem 'rspec'
+gem 'factory_bot'
+gem 'webmock'
+gem 'httparty'
+gem 'multi_json'
+gem 'representable'

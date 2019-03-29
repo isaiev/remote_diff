@@ -1,0 +1,12 @@
+require 'httparty'
+require 'representable'
+
+require_relative 'db/schema'
+require_relative 'db/seeds'
+require_relative 'models/application_record'
+require_relative 'models/campaign'
+require_relative 'services/discrepancy_service'
+require_relative 'services/campaign_diff_service'
+require_relative 'external_resources/base'
+require_relative 'external_resources/mock_bin'
+require_relative 'representers/mock_bin_representer'
